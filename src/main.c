@@ -31,5 +31,7 @@ int main() {
 
         //exibe o volume no display
         display_show_volumn(volume);
+
+        sleep_ms(100);
     }
 }

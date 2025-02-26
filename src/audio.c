@@ -10,7 +10,7 @@
 #define ADC_CHANNEL 2
 #define MID_VALUE 2048
 #define MAX_VALUE 4095 
-#define SENSE 40
+#define SENSE 25
 
 static bool paused = false;
 static int current_volumn = 0;

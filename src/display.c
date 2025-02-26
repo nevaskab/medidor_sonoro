@@ -71,5 +71,5 @@ void display_show_volumn(int volume){
 
     ssd1306_send_data(&ssd);
 
-    sleep_ms(500);
+    sleep_ms(100);
 }
