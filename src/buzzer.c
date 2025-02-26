@@ -9,6 +9,7 @@ void buzzer_init(){
     gpio_set_dir(BUZZER_PIN, GPIO_OUT);
 }
 
+//função que compara o nível do volume e se for maior que o limite é emitido um alerta
 void buzzer_check_alert(int volume){
     if (volume > VOLUMN_LIMIT){
         gpio_put(BUZZER_PIN, 1);

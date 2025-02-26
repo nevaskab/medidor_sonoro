@@ -28,11 +28,13 @@ void display_init() {
     ssd1306_config(&ssd);
 }
 
+//função que limpa o display
 void display_clear(){
     ssd1306_fill(&ssd, 0);
     ssd1306_send_data(&ssd);
 }
 
+//função para escrever outras mensagens desejadas
 void display_show_message(const char *message){
     
     ssd1306_fill(&ssd, 0);
@@ -44,6 +46,7 @@ void display_show_message(const char *message){
     display_clear();
 }
 
+//função que escreve constantemente o valor do volume no display
 void display_show_volumn(int volume){
     ssd1306_fill(&ssd, 0);
 

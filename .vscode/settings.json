@@ -40,6 +40,7 @@
         "*.embeddedhtml": "html",
         "stdlib.h": "c",
         "leds.h": "c",
-        "audio.h": "c"
+        "audio.h": "c",
+        "buzzer.h": "c"
     }
 }

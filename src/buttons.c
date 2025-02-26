@@ -65,11 +65,12 @@ void irq_button(uint gpio, uint32_t events) {
 
     if(debounce(gpio)){
 
+        //botão A pressionado chama as funções audio_pause e buzzer_stop
         if(gpio == A_BUTTON_PIN){
             audio_pause();
             buzzer_stop();
         }
-        //o botão B aciona o led azul
+        //botão B chama as funções audio_reset e display clear
         else if(gpio == B_BUTTON_PIN){
             audio_reset();
             display_clear();
