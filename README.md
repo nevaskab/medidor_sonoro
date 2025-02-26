@@ -43,7 +43,7 @@ Siga as etapas a seguir:
 ---
 
 <h2>Para mais detalhe sobre o funcionamento...</h2>
-Visite: 
+Visite: https://drive.google.com/file/d/1dfryXKMeeLUul99ZrfKGh1n9PU_I1CDO/view?usp=sharing
 
 ### Autor
 ---
